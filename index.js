@@ -12,7 +12,7 @@ const path = require("path");
 // =============== 𝐽𝑂𝑂 WhatsApp Bot ===============
 
 // ضع رقم المالك في Railway Variables بهذا الشكل:
-// 201XXXXXXXXX
+// 201016388947
 const OWNER = (process.env.JOO_OWNER || "").replace(/\D/g, "");
 
 const SECRET_CODE = process.env.JOO_SECRET_CODE || "JOO2026";
