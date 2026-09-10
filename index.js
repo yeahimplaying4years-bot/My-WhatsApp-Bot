@@ -13,10 +13,10 @@ const path = require("path");
 // 🤖 JOO WhatsApp Bot
 // ========================================
 
-// 201016388947
+// رقم المالك
 const OWNER = (process.env.JOO_OWNER || "").replace(/\D/g, "");
 
-// 201016388947
+// رقم واتساب الذي سيتم ربط البوت عليه
 const PHONE_NUMBER = (process.env.JOO_PHONE || "").replace(/\D/g, "");
 
 const SECRET_CODE = process.env.JOO_SECRET_CODE || "JOO2026";
